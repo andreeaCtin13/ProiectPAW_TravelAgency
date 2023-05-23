@@ -38,7 +38,9 @@ namespace ProiectPAW_TravelAgency
 
         private void profilToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hahha");
+            Profile p = new Profile(actual);
+            p.Show();
+            this.Hide();
         }
 
         private void pictLondra_Click(object sender, EventArgs e)
@@ -81,6 +83,13 @@ namespace ProiectPAW_TravelAgency
             String[] servicii = { "Spa", "Mese Incluse", "Piscina" };
             var dialog = new Modal(actual, label6.Text, 4000, servicii);
             dialog.Show();
+        }
+
+        private void vacanteAchizitionateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VacanteUser vc = new VacanteUser(actual);
+            vc.Show();
+            this.Hide();
         }
     }
 }

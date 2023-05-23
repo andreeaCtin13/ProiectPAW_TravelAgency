@@ -80,15 +80,17 @@
             // 
             this.profilToolStripMenuItem.Name = "profilToolStripMenuItem";
             this.profilToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.profilToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.profilToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.profilToolStripMenuItem.Text = "Profil";
             this.profilToolStripMenuItem.Click += new System.EventHandler(this.profilToolStripMenuItem_Click);
             // 
             // vacanteAchizitionateToolStripMenuItem
             // 
             this.vacanteAchizitionateToolStripMenuItem.Name = "vacanteAchizitionateToolStripMenuItem";
-            this.vacanteAchizitionateToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.vacanteAchizitionateToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.vacanteAchizitionateToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.vacanteAchizitionateToolStripMenuItem.Text = "Vacante Achizitionate";
+            this.vacanteAchizitionateToolStripMenuItem.Click += new System.EventHandler(this.vacanteAchizitionateToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 

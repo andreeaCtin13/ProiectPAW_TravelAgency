@@ -45,16 +45,16 @@
             // 
             // tbUsername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(654, 394);
+            this.tbUsername.Location = new System.Drawing.Point(631, 393);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(100, 22);
+            this.tbUsername.Size = new System.Drawing.Size(162, 22);
             this.tbUsername.TabIndex = 0;
             // 
             // tbPassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(654, 442);
+            this.tbPassword.Location = new System.Drawing.Point(631, 441);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(100, 22);
+            this.tbPassword.Size = new System.Drawing.Size(162, 22);
             this.tbPassword.TabIndex = 1;
             // 
             // label1
@@ -62,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(556, 399);
+            this.label1.Location = new System.Drawing.Point(533, 398);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 21);
             this.label1.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(556, 442);
+            this.label2.Location = new System.Drawing.Point(533, 441);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 21);
             this.label2.TabIndex = 3;

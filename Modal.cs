@@ -35,6 +35,7 @@ namespace ProiectPAW_TravelAgency
             Cazare c = new Cazare(lblDestionation.Text, serviciiOferite, t);
             actual.addCazare(c);
             MessageBox.Show("Felicitari! Cazarea a fost rezervata, iata cateva detalii despre aceasta:\n" + c.ToString());
+            this.Hide();
         }
     }
 }
